@@ -1,0 +1,90 @@
+/*  Melih Güler
+ *  June 2019
+ */
+
+
+
+
+
+    .mM_side{
+        width: 1.5vmax;
+        height: 4.5vmax;
+        border-radius: 0 5vmax 15vmax 0;
+        padding-top: 3.5vmax;
+        cursor: pointer;
+        position: fixed;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        z-index: 1000;
+    }
+    .mM_side:hover{
+        width: 2vmax;
+        height: 5vmax;
+    }
+
+    .mM_side p{
+        padding: 0;
+        font-size: 1vmax;
+        transform: rotate(-90deg);
+    }
+    .mMenu{
+        width: 15vw;
+        height: auto;/*35vh*/
+        background-color: #a9a9a9;
+        visibility: hidden;
+        box-shadow: 0.3vh 0.3vh 0 0 #0c5460;
+        position: absolute;
+    }
+    .mMenuBorder{
+        margin: 0;
+        padding: 0;
+        width: 15vw;
+        height: 2.8vh;
+        background-color: #fef7f1;
+        cursor: move;
+        text-align: center;
+        font-size: 2vh;
+    }
+    .mMItemGrid{
+        padding: 0;
+        width: 6vw;
+        height: auto;
+        margin: 1vh 0 1vw 1vw;
+        cursor: pointer;
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .mMItemGrid:hover{
+        background-color: #b9b9b9;
+    }
+
+    .mMItemLine{
+        padding: 0;
+        width: 13vw;
+        height: auto;
+        margin: 1vh 1vw 1vh 1vw;
+        cursor: pointer;
+        display: block;
+        text-align: center;
+    }
+    .mMItemLine:hover{
+        background-color: #b9b9b9;
+    }
+    .mMFixing{
+        padding: 0;
+        position: absolute;
+        width: 1vw;
+        height: 1vw;
+        background-image: url("../svg/push-pin.svg");
+        background-size: 1vw;
+        background-repeat: no-repeat;
+        right: 0.5vw;
+        top: 0.3vh;
+        cursor: alias;
+    }
+
